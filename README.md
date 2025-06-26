@@ -11,4 +11,22 @@ This is a Python bot that tracks stock prices using [yfinance](https://pypi.org/
 1. Install dependencies:
    ```bash
    pip install -r requirements.txt
- 
+2. Run the bot
+   ```bash
+   python main.py
+   
+## 📦 Requirements
+Python 3.x
+yfinance
+
+## 📌 To-Do
+Add alert via email or Telegram
+Multiple stock support
+```bash
+git add README.md
+git commit -m "Added README"
+git push
+
+
+
+
