@@ -16,17 +16,13 @@ This is a Python bot that tracks stock prices using [yfinance](https://pypi.org/
    python main.py
    
 ## 📦 Requirements
-Python 3.x
-yfinance
+- Python 3.x
+- yfinance
 
-## 📌 To-Do
-Add alert via email or Telegram
-Multiple stock support
-```bash
-git add README.md
-git commit -m "Added README"
-git push
-
+## ⚙️ How It Works
+- Uses yfinance.Ticker("AAPL").history() to fetch real-time prices
+- Checks if the latest closing price is above your custom threshold
+- Alerts in the terminal if it is above
 
 
 
